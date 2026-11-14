@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Reverie mark for the adaptive icon: a gradient tile with a white "moon" set into its top-right corner.
+     The notch is painted in the icon background colour (vector drawables have no masks).
+     Kept inside the 66 dp safe circle of the 108 dp canvas. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path android:pathData="M46,35.5 H62 A10.5,10.5 0 0 1 72.5,46 V62 A10.5,10.5 0 0 1 62,72.5 H46 A10.5,10.5 0 0 1 35.5,62 V46 A10.5,10.5 0 0 1 46,35.5 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="35.5" android:startY="35.5"
+                android:endX="72.5" android:endY="72.5">
+                <item android:offset="0" android:color="#FF6FA8FF" />
+                <item android:offset="0.55" android:color="#FFB38CFF" />
+                <item android:offset="1" android:color="#FFFF9A86" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <path android:pathData="M68,40 m-10,0 a10,10 0 1 0 20,0 a10,10 0 1 0 -20,0" android:fillColor="@color/ic_launcher_background" />
+    <path android:pathData="M68,40 m-6.4,0 a6.4,6.4 0 1 0 12.8,0 a6.4,6.4 0 1 0 -12.8,0" android:fillColor="#FFFFFF" />
+</vector>

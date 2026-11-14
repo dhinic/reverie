@@ -1,0 +1,15 @@
+local.properties
+build/
+.gradle/
+.DS_Store
+*.apk
+.claude/settings.local.json
+.idea/
+.superpowers/
+
+# working notes and assistant config, not part of the public repo
+HANDOVER.md
+CLAUDE.md
+.claude/
+docs/plans/
+docs/superpowers/

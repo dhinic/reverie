@@ -1,0 +1,40 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'app.reverie'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId 'app.reverie'
+        minSdk 26
+        targetSdk 34
+        versionCode 1
+        versionName '1.0'
+    }
+
+    // Sideloaded only; the debug build stays debuggable so `run-as` can write config.json into the app's private storage.
+    buildTypes {
+        debug { debuggable true }
+    }
+
+    packagingOptions {
+        resources {
+            excludes += ['META-INF/versions/**', 'META-INF/DEPENDENCIES', 'META-INF/LICENSE*', 'META-INF/NOTICE*',
+                         'META-INF/AL2.0', 'META-INF/LGPL2.1', 'META-INF/*.kotlin_module']
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
+
+dependencies {
+    implementation 'com.hierynomus:smbj:0.13.0'
+    implementation 'org.bouncycastle:bcprov-jdk18on:1.78.1'
+    implementation 'org.slf4j:slf4j-nop:2.0.9'
+    implementation 'androidx.media3:media3-exoplayer:1.4.1'
+}
