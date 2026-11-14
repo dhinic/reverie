@@ -15,6 +15,12 @@
   <img src="https://img.shields.io/badge/license-MIT-6FA8FF" alt="MIT license">
 </p>
 
+https://github.com/user-attachments/assets/467e9076-52e8-4ce4-876f-6d1c89a12aa3
+
+<p align="center">
+  <sub>Music: Sascha Ende, <a href="https://ende.app">ende.app</a> (CC BY 4.0)</sub>
+</p>
+
 <p align="center">
   <img src="docs/screenshots/menu.png" width="820" alt="Reverie home screen with Start slideshow and Settings">
 </p>
