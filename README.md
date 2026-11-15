@@ -15,7 +15,7 @@
   <img src="https://img.shields.io/badge/license-MIT-6FA8FF" alt="MIT license">
 </p>
 
-https://github.com/user-attachments/assets/467e9076-52e8-4ce4-876f-6d1c89a12aa3
+https://github.com/user-attachments/assets/f9671b0a-5bc3-47fc-8345-2f74d6cdcd6f
 
 <p align="center">
   <sub>Music: Sascha Ende, <a href="https://ende.app">ende.app</a> (CC BY 4.0)</sub>
